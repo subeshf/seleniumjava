@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-20T15:18:46 IST" name="Surefire suite" finished-at="2025-11-20T15:19:02 IST" duration-ms="15907">
+    <groups>
+      <group name="a">
+        <method signature="Testng01.Test2()[pri:0, instance:day5.Testng01@70be0a2b]" name="Test2" class="day5.Testng01"/>
+      </group> <!-- a -->
+      <group name="abc">
+        <method signature="Testng01.Test4(java.lang.String,java.lang.String)[pri:4, instance:day5.Testng01@70be0a2b]" name="Test4" class="day5.Testng01"/>
+      </group> <!-- abc -->
+      <group name="def">
+        <method signature="Testng01.Test4(java.lang.String,java.lang.String)[pri:4, instance:day5.Testng01@70be0a2b]" name="Test4" class="day5.Testng01"/>
+      </group> <!-- def -->
+    </groups>
+    <test started-at="2025-11-20T15:18:46 IST" name="Surefire test" finished-at="2025-11-20T15:19:02 IST" duration-ms="15907">
+      <class name="day5.Testng01">
+        <test-method is-config="true" signature="openurl()[pri:0, instance:day5.Testng01@70be0a2b]" started-at="2025-11-20T15:18:46 IST" name="openurl" finished-at="2025-11-20T15:19:00 IST" duration-ms="13816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="Test2()[pri:0, instance:day5.Testng01@70be0a2b]" started-at="2025-11-20T15:19:00 IST" name="Test2" finished-at="2025-11-20T15:19:00 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:3, instance:day5.Testng01@70be0a2b]" started-at="2025-11-20T15:19:00 IST" name="Test3" finished-at="2025-11-20T15:19:01 IST" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test4(java.lang.String,java.lang.String)[pri:4, instance:day5.Testng01@70be0a2b]" started-at="2025-11-20T15:19:01 IST" name="Test4" data-provider="ab" finished-at="2025-11-20T15:19:02 IST" depends-on-methods="day5.Testng01.Test3, day5.Testng01.Test2" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method is-config="true" signature="last()[pri:0, instance:day5.Testng01@70be0a2b]" started-at="2025-11-20T15:19:02 IST" name="last" finished-at="2025-11-20T15:19:02 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last -->
+      </class> <!-- day5.Testng01 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
